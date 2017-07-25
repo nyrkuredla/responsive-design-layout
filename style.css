@@ -84,10 +84,13 @@ header{
 
 section#main_content {
     background-color: #ddffff;
+    padding: 5%;
   }
 
 section#sidebar_content div {
   background-color: #ffffdd;
+  padding: 5%;
+  margin: 5% 0;
 }
 
 footer#site_footer {
@@ -98,13 +101,26 @@ h1#logo {
   text-align: center;
 }
 
+#site_footer nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 5%;
+  margin: 0 auto;
+}
 
-
+#site_footer nav a {
+  /*flex-basis: 32%;
+  flex-grow: 1;*/
+  text-align: center;
+  flex-grow: 1;
+  padding: 0 10px;
+}
 
 
 /*Tablet layout*/
 @media query (min-width: 600px) {
-
+  
 }
 
 /*Desktop layout*/

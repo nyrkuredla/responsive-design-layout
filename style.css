@@ -143,7 +143,23 @@ h1#logo {
     flex-grow: 1;
   }
 
-  
+  section#main_content {
+    display: flex;
+    margin: auto 0;
+    padding: 0;
+  }
+
+  section#main_content div:first-child {
+    flex-grow: 2;
+    flex-basis: 66%;
+    padding: 1% 2%;
+  }
+
+  section#main_content div:last-child {
+    flex-grow: 1;
+    flex-basis: 32%;
+    padding: 2%;
+  }
 
 }
 

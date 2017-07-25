@@ -153,12 +153,36 @@ h1#logo {
     flex-grow: 2;
     flex-basis: 66%;
     padding: 1% 2%;
+    margin: 1% 0;
   }
 
   section#main_content div:last-child {
     flex-grow: 1;
     flex-basis: 32%;
     padding: 2%;
+  }
+
+  section#sidebar_content {
+    display: flex;
+  }
+
+  section#sidebar_content div {
+    flex-basis: 33%;
+    flex-grow: 1;
+    margin: 2%;
+    padding: 0;
+  }
+
+  #site_footer nav {
+    padding: 2%;
+    /*display: inline-block;*/
+    width: 30%;
+    margin: 0 auto;
+  }
+
+  #site_footer nav a {
+    display: inline-block;
+    margin: 0 auto;
   }
 
 }

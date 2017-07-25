@@ -119,6 +119,45 @@ h1#logo {
 /*Tablet layout*/
 @media (min-width: 600px) {
 
+    header {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+
+    #main_nav {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    #main_nav a {
+      flex-basis: 30%;
+      flex-grow: 1;
+      margin: 1%;
+    }
+
+    section#sidebar_content {
+      display: flex;
+    }
+
+    section#sidebar_content div {
+      flex-basis: 33%;
+      flex-grow: 1;
+      margin: 2%;
+      padding: 0;
+    }
+
+    #site_footer nav {
+      padding: 2%;
+      /*display: inline-block;*/
+      width: 40%;
+      margin: 0 auto;
+    }
+
+    #site_footer nav a {
+      display: inline-block;
+      margin: 0 auto;
+    }
 }
 
 /*Desktop layout*/
@@ -167,27 +206,5 @@ h1#logo {
     padding: 2%;
   }
 
-  section#sidebar_content {
-    display: flex;
-  }
-
-  section#sidebar_content div {
-    flex-basis: 33%;
-    flex-grow: 1;
-    margin: 2%;
-    padding: 0;
-  }
-
-  #site_footer nav {
-    padding: 2%;
-    /*display: inline-block;*/
-    width: 30%;
-    margin: 0 auto;
-  }
-
-  #site_footer nav a {
-    display: inline-block;
-    margin: 0 auto;
-  }
 
 }

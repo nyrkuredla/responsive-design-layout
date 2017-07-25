@@ -123,6 +123,7 @@ h1#logo {
       display: flex;
       flex-direction: column;
       flex-wrap: nowrap;
+      margin: 0;
     }
 
     #main_nav {
@@ -138,6 +139,8 @@ h1#logo {
 
     section#sidebar_content {
       display: flex;
+      background-color: #ffffdd;
+      margin: 3% 0;
     }
 
     section#sidebar_content div {
